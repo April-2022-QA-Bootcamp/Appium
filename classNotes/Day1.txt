@@ -1,0 +1,52 @@
+Web Application : Selenium, java
+Desktop Application : uft, vbscript, javascript
+
+Mobile Application: Appium, java (QMetry, Calabash, test complete) 120k (+20k)
+Native - need to install
+Web View - no need to install, can nvaigate through mobile (chromer) browser
+Hybrid
+
+Selenium -> intance of browser -> json wire protocol -> real browser
+Appium 	 -> appium server      -> json wire protocol -> devices(Real/(Emulator/Simulator))
+
+Selenium            |            Appium
+-----------------------------------------------
+WebDriver/RemoteWebDriver = 	RemoteWebDriver
+WebElement		  =	WebElement
+Chrome/FireFoxDriver	X	Appium Server
+Web Browser		X	Appium Inspector (Inspect Element)
+Java/Eclipse		=	Java/Eclipse
+Pre-built Session	=	Declare a session (Desire Capabilities)
+
+
+Emulator - Virtual Andriod Devices (Android Studio)
+Simulator - Virtual iOS Devices (XCode)
+
+To connect an real android device:
+----------------------------------
+ADB - Android Debug Bridge (Computer can Talk to Android Devices)
+In PC:
+1. Install/Extract ADB in your pc (sdk platform-tools)
+Mobile Device:
+2. Enable Developer Mode (By tapping build number 7-12 times)
+3. Enable USB Debugging
+4. Connect USB from mobile to PC
+PC:
+5. open cmd from where you put platform-tools (adb.exe will be there)
+6. type 'adb devices'
+
+To connect a virtual device (Emulator)
+--------------------------------------
+1. Install Android Studio
+2. Select three dots (:) from top-right corner
+3. Select Virtual Device
+4. Create a Device
+5. Select a device from the list (Pixel 4)
+6. Select a platform version (Android version) from right hand side
+7. Create the device
+
+To inspect/Automate:
+--------------------
+1. Run Appium Server (GUI/CLI)
+
+
