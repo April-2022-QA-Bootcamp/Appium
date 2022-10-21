@@ -1,0 +1,27 @@
+Type of Mobile Applications:
+============================
+1. Native App - Requires Installation (Desktop version of Mobile)
+2. Web View/WebApp - Do not need to install locally
+3. Hybrid App - Mixture of both - Chrome
+
+Testing for Mobile App:
+=======================
+1. Unit Test
+2. Integration Test
+3. Device Compatability Test - Platforms (Android, iOS), Browsers(Chrome, Firefox, Safari), Platform Version (iOS14, 	15, 16 Android 14,11,13,12) (What device we need to test? This list can provided by BA)
+4. Emulator / Simulator
+5. UI - User Interface
+6. UX - User Experience
+7. Network Testing
+8. Memory Leakage
+9. Interruption Testing
+10. Exploratory Testing
+* E2E / End-to-End : Integration between different applications or services (Application to DB, Application to Network, Application to Services)
+
+Some useful links:
+https://testsigma.com/blog/different-types-of-mobile-testing-with-real-life-examples/
+
+Types of Testing:
+=================
+1. Software / Application centric (Functional / Performance)
+2. Device / Hardware capabilties
