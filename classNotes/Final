@@ -1,0 +1,7 @@
+Setting up ANDROID_HOME in system variable
+ - ANDROID_HOME = C:\Users\mdnas\AppData\Local\Android\Sdk
+ - Path = %ANDROID_HOME%\platform-tools\
+ - Path = %ANDROID_HOME%\tools\
+ - Path = %ANDROID_HOME%\tools\bin\
+ 
+ 

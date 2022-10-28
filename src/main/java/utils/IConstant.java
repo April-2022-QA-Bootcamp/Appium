@@ -15,4 +15,15 @@ public interface IConstant {
 	String APP_ACTIVITY = "appActivity";
 	String APP = "app";
 	String BROWSER = "browser";
+	
+	String BS_USER = "browserstack.user";
+	String BS_KEY = "browserstack.key";
+	String USER  = "user";
+	String PASS = "pass";
+	String APP_URL = "appUrl";
+	String DEVICE = "device";
+	String OS_VERSION = "os_version";
+	String BS_DEVICE = "bsDevice";
+	String BS_VERSION = "bsDeviceVersion";
+	
 }

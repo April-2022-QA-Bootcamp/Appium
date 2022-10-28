@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="RegressionTest">
     <classes>
-      <class name="app.installed.calculator.TestCalculator"/>
+      <class name="app.installing.demo.TestDemoApp"/>
     </classes>
   </test> <!-- RegressionTest -->
 </suite> <!-- Suite -->
